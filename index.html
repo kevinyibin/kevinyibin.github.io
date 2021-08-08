@@ -562,7 +562,7 @@
                 </div>
                 <div class="flag-text">
                   <div class="flag-text-content">
-                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">青墨书晚风</div>
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">欢迎来到我的博客</div>
                     
                       <div class="ani animated default-excerpt" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
                         <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="80" :back-speed="50">
@@ -669,7 +669,7 @@ Responsive content / Mobile-op</div>
   var loop = JSON.parse('true') ? false : JSON.parse('true');
   var effect = 'fade';
   var swiperLength = parseInt(document.querySelector(".swiper-length").innerText);
-  var defaultDesc = '煮酒洗净尘嚣，论知交,万般付之一笑，共偕老';
+  var defaultDesc = '网站彩蛋等你发现';
   defaultDesc = defaultDesc.split(',');
   var defaultDescTypedLoop = JSON.parse('false');
   var vm = new Vue({
@@ -1423,12 +1423,16 @@ Responsive content / Mobile-op
 <style>
 .aplayer .aplayer-lrc p {
   
+  display: none;
+  
   font-size: 12px;
   font-weight: 700;
   line-height: 16px !important;
 }
 
 .aplayer .aplayer-lrc p.aplayer-lrc-current {
+  
+  display: none;
   
   font-size: 15px;
   color: #42b983;
@@ -1438,11 +1442,11 @@ Responsive content / Mobile-op
 </style>
 <meting-js  
   class=""
-  server="netease"
+  server="tencent"
   type="playlist"
-  id="112456303"
+  id="8111354934"
   fixed='true'
-  autoplay='true'
+  autoplay='false'
   theme='#42b983'
   loop='all'
   order='random'
@@ -1744,7 +1748,7 @@ Responsive content / Mobile-op
 <!-- 具体js，请前往valine/script.ejs查看 -->
 
         <script>
-  var requiredFields = '';
+  var requiredFields = '‘mail’';
   requiredFields = requiredFields.split(',');
   comment_el = '.comment';
   let looperValine = null;
@@ -1755,11 +1759,11 @@ Responsive content / Mobile-op
         path: window.location.pathname,
         notify: false,
         verify: false,
-        app_id: "",
-        app_key: "",
+        app_id: "msLqJ1cahqnNN1pIqkduQGEu-gzGzoHsz",
+        app_key: "ARSdY804UFrNYxILMfSAo3L9",
         placeholder: "客官，说点什么吧",
-        avatar: "",
-        master: "",   //博主邮箱md5
+        avatar: "mp",
+        master: "bd6108b34ace0945dcce077b7603b3e0",   //博主邮箱md5
         tagMeta: ["博主","小伙伴","访客"],     //标识字段名
         friends: "",
         metaPlaceholder: { "nick": "昵称/QQ号", "mail": "邮箱" },
